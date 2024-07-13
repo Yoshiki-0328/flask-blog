@@ -31,7 +31,7 @@ This will install the packages from the requirements.txt for this project.
 
 
 app = Flask(__name__)
-load_dotenv()
+# load_dotenv()
 flask_key = os.environ.get('FLASK_KEY')
 app.config['SECRET_KEY'] = flask_key
 ckeditor = CKEditor(app)
